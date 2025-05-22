@@ -36,6 +36,7 @@ This application was developed during a 6 hour company-wide hackathon focused on
 
 ## Future Enhancements
 
+- Replace hardcoded data with live API integration for driver standings, next race details, and last race results
 - Race prediction features based on historical performance
 - Historical race data and statistics
 - Mobile-responsive design improvements
