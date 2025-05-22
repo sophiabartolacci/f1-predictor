@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Current Standings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Preload fonts for better performance -->
+    <link rel="preload" href="fonts/Formula1-Regular.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="fonts/Formula1-Bold.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="fonts/Formula1-Wide.otf" as="font" type="font/otf" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-flag-checkered"></i> F1 Current Standings</h1>
+            <p>Displaying current Formula 1 drivers, teams, and points</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading F1 data...</p>
+        </div>
+
+        <div class="content" id="content" style="display: none;">
+            <section class="next-race-highlight">
+                <div class="next-race-card" id="next-race-info">
+                    <!-- Next race information will be populated here -->
+                </div>
+            </section>
+            
+            <section class="current-standings">
+                <h2>Current F1 Standings</h2>
+                <div class="standings-container">
+                    <div class="standings-card">
+                        <h3>Driver Standings</h3>
+                        <div class="standings" id="driver-standings">
+                            <!-- Driver standings will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="standings-card">
+                        <h3>Constructor Standings</h3>
+                        <div class="standings" id="constructor-standings">
+                            <!-- Constructor standings will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>2025 F1 Data | Using FastF1 API</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
