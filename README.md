@@ -4,7 +4,7 @@ A modern web application for displaying current Formula 1 standings, race result
 
 ## Project Background
 
-This application was developed during a company-wide hackathon focused on leveraging Amazon Q for AI-assisted development. The challenge encouraged participants to explore how AI tools could accelerate development workflows and enhance productivity.
+This application was developed during a 6 hour company-wide hackathon focused on leveraging Amazon Q for AI-assisted development. The challenge encouraged participants to explore how AI tools could accelerate development workflows and enhance productivity.
 
 ## Key Features
 
